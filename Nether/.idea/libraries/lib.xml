@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/LGoodDatePicker-10.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Darcula.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/JSplashScreen.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/trident-1.5.00.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org-openide-util-lookup.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/substance-4.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/substance-8.0.02.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/sqlite-jdbc-3.23.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/rs2xml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/swing-layout/swing-layout-1.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
