@@ -1,5 +1,15 @@
 /*
- *  12/11/2018
+ *  Copyright (C) 2017-2020
+ *  This file is part of Nether.
+ * 
+ *  Unauthorized copying of this file, via any medium is strictly prohibited.
+ *  This piece of code is proprietary and confidential. Nether can not be
+ *  copied and/or distributed without the express permission of Héctor Martínez.
+ * 
+ *  Project: Nether
+ *  File: MainFrameController.java
+ *  Date: 12/11/2018 10:00:00
+ *  Author: Héctor Martínez <hector.mtz.grc@gmail.com>
  */
 package nether.ui.main;
 
@@ -34,7 +44,8 @@ public class MainFrameController extends MainFrameView {
     }
 
     /**
-     *
+     * Initialises the properties and events of the class.
+     * 
      */
     private void init() {
         ConfigLoader.setLookAndFeelTheme();
@@ -221,7 +232,7 @@ public class MainFrameController extends MainFrameView {
      */
     public static void main(String[] args) {
         java.awt.EventQueue.invokeLater(() -> {
-            MainFrameController mainFrameController = new MainFrameController();
+            new MainFrameController();
         });
 
     }

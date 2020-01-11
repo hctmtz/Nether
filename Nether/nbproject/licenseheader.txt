@@ -1,7 +1,17 @@
 <#if licenseFirst??>
 ${licenseFirst}
 </#if>
-${licensePrefix} ${date}
+${licensePrefix} Copyright (C) 2017-${date?date?string("yyyy")}
+${licensePrefix} This file is part of ${project.name}.
+${licensePrefix}
+${licensePrefix} Unauthorized copying of this file, via any medium is strictly prohibited.
+${licensePrefix} This piece of code is proprietary and confidential. ${project.name} can not be
+${licensePrefix} copied and/or distributed without the express permission of Héctor Martínez.
+${licensePrefix}
+${licensePrefix} Project: ${project.name}
+${licensePrefix} File: ${nameAndExt}
+${licensePrefix} Date: ${date?date?string("dd/MM/yyyy")} ${time}
+${licensePrefix} Author: Héctor Martínez <hector.mtz.grc@gmail.com>
 <#if licenseLast??>
 ${licenseLast}
 </#if>

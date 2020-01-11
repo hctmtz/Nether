@@ -7,7 +7,7 @@ import javax.swing.*;
 import javax.swing.plaf.metal.MetalIconFactory;
 
 /**
- * @author 6dc
+ * @author Héctor
  *
  * A class which creates a JTabbedPane and auto sets a close button when you add
  * a tab
